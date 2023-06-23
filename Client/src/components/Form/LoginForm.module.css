@@ -1,0 +1,82 @@
+.emailError{
+  position: absolute;
+  font-family: Geologica;
+  font-size: 0.7rem;
+  top: 3.5rem;
+  left: 19.2rem;
+  color: #00fc37;
+  }
+
+  .error{
+    position: absolute;
+    font-family: Geologica;
+    font-size: 0.7rem;
+    top: 3.5rem;
+    left: 34.2rem;
+    color: #00fc37;
+  }
+
+  .labelForm{ 
+    margin-right:2px;
+    margin-left: 5px;
+    font-family: Geologica;
+    font-size: 85%;
+    color:#e2ebe4;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    width: 61rem;
+    position: inherit;
+    left: -14rem;
+    top: 16rem;
+  }
+
+  .button {
+    position: absolute;
+    right: 10rem;
+    border: solid 1px #ffffff94;
+    background-color: #f8d617c8;
+    margin-right: 1.5rem;
+    width: 5rem;
+    height: 1.4rem;
+    font-family: Geologica;
+    font-size: 75%;
+    color:#e2ebe4;
+    border-radius: 2%;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    }
+
+  .button:hover {
+      transform: scale(1.1);
+      background-color: #edf817;
+      color: darkblue;
+  }
+    
+.logoAutentic {
+    position: relative;
+    left:6.5rem;
+    top: 5rem;
+    font-family: Geologica;
+    font-size: 2.5rem;
+    color: #edf817;
+    text-decoration: underline;
+    /* max-height: 190px; */
+    object-fit: contain;
+    margin-bottom: 0px;
+  }
+
+  .boxDiv{
+    background-color: #000000a8;
+    border-radius: 3%;
+    width: 38rem;
+    height: 23rem;
+    position: absolute;
+    left: 29rem;
+    top: 10rem;
+    align-items: center;
+  }

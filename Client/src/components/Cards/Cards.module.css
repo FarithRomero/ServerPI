@@ -1,0 +1,21 @@
+
+.container {
+    position: relative;
+    top: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80rem;
+    height: 20rem;
+    margin: 0 auto;
+    overflow-x: auto;
+    border-radius: 2%;
+  }
+  
+  .cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+  

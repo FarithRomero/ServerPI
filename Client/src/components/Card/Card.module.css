@@ -1,0 +1,93 @@
+
+.Card {
+    position: relative;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 10rem;
+    height: 16rem;
+    text-align: center;
+    font-family: Geologica;
+    font-size: 55%;
+    padding: 5px 5px 5px 5px;
+    background-color: #000000a8;
+    border: 1px solid #e1da0b25;
+    border-radius: 5%;
+    box-shadow: 0 10px 25px 5px #00040172;
+    color: #e2ebe4;
+    text-shadow: 2px 3px 1px rgba(0, 0, 0, 0.894);
+    cursor:pointer; 
+    line-height: 1rem;
+    transition: transform 0.3s ease-in-out;
+}
+
+    .Card:hover {
+        transform: translateY(-20px);
+    }
+  
+    .image {
+        width: 98%;
+        height: 90%;
+        border-radius: 4%;
+        object-fit: cover;
+        margin-bottom: 5px;
+    }
+
+    .favButton {
+    position: absolute;
+    top: 0.25rem;
+    width: 30px;
+    height: 30px;
+    left: 0.2rem;
+    align-items: center;
+    border: solid 1px#fffffe;
+    background-color:#edf817;
+    border-radius: 25%;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    }
+
+    .favButton:hover {
+    transform: scale(1.1);
+    background-color:#97ce4c;
+    }
+
+    .closeButton{
+        position: absolute;
+        top: 0.25rem;
+        width: 30px;
+        height: 30px;
+        left: 8.3rem;
+        align-items: center;
+        border: solid 1px #edf817;
+        background-color: #44281d8a;
+        border-radius: 25%;
+        cursor: pointer;
+        transition: transform 0.3s ease-in-out;
+        color:#e2ebe4;
+        font-family: Geologica;
+    }
+
+    .closeButton:hover {
+        transform: scale(1.1);
+        background-color:#97ce4c;
+        color: rgba(196, 0, 0, 0.705)
+        }
+ 
+    .link{
+        color:#e1da0be9;
+        transition: transform 0.4s ease-in-out;
+        text-decoration: none;
+        
+    }
+
+    .link:hover {
+        color:#cecdc0e9;
+        transform: scale(1.2);
+    }
+        
+    .name{
+        text-shadow: none;
+    }
+  
+ 

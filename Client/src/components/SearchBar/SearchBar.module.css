@@ -1,0 +1,41 @@
+.button {
+    border: solid 1px #ffffff94;
+    background-color: #f8d617c8;
+    margin-right: 0px;
+    width: 4rem;
+    height: 1.9rem;
+    font-family: Geologica;
+    font-size: 75%;
+    color:#000000e2;
+    border-radius: 2%;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    }
+
+    .button:hover {
+        transform: scale(1.1);
+        background-color: #edf817;
+        color: darkblue;
+
+    }
+
+.input{
+    border: solid 1px #f8d617c8;
+    margin-left: 0.5rem;
+    padding-bottom: 2px;
+    width: 5rem;
+    height: 1.9rem;
+    font-family: Geologica;
+    color:#0e0f16;
+    border-radius: 2%;
+    cursor: pointer;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: flex-end;
+    margin: 5px;
+
+};
